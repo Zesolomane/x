@@ -9,7 +9,7 @@ import Homepage from './pages/Homepage';
 import Posts from './pages/Posts';
 import Edit, {postLoader}from './pages/Edit';
 import AddPost from './pages/AddPost';
-import NotExist from './pages/NotExist';
+// import NotExist from './pages/NotExist';
 import Post from './pages/Post';
 import Login from './pages/Login';
 import Signup from './pages/SignUp';
@@ -27,7 +27,7 @@ function App() {
         
         <Route path="/login" element={<Login/>}/>
         <Route path="/signup" element={<Signup/>}/>
-        <Route path="/404" element={<NotExist/>}/>
+        {/* <Route path="/404" element={<NotExist/>}/> */}
       </Route>
     )
   )

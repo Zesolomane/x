@@ -12,7 +12,7 @@ const Hero = ({bg}) => {
     {  info: 'POSTS',pageRoute:'./posts'  },
   ];
   return (
-    <div className='w-full bg-black bm-1'>
+    <div className='w-full  bm-1'>
         
         <div className="relative h-[42rem] mx-auto"> 
           <div className="h-full w-full bg-cover bg-netflix">

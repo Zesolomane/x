@@ -6,7 +6,7 @@ import Footer from './Footer';
 const Mainlayout = () => {
   return (
     <>
-      <div className="relative min-h-[100vh]">
+      <div className="relative min-h-[100vh] bg-black">
         <div className="pb-[200px]">
           <ScrollHeader bg="bg-black" textColor="text-red-600">
             <div>
