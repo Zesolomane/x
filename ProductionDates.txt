@@ -1,0 +1,17 @@
+After each day update each change to the github repository, then alternate to a different device to make a pull
+request then develop the code base just to push the changes
+
+utalize these sources: https://www.youtube.com/watch?v=nH9E25nkk3I full expressJS course must finish first
+
+
+July 5: Update the UI to a netflix look alike, their should be multiple pages, add a form element to the pages and learn how to submit data relearn github
+
+July 6: Create the express js backend nothing complet just enough to make the server take in requests from the website.
+        Learn API's from https://www.javascripttutorial.net/web-apis/
+        Then relearn/implement endpoints query/id params
+        
+July 7: Finish the rest of the expressJS course and implement their features
+
+July(unknown): Based on july 7 then you will determine when to learn MYSQl from https://www.mysqltutorial.org/
+                Start from secton 1 and you must install MYSQL on ubuntu. 
+

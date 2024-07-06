@@ -9,6 +9,7 @@ export default {
     extend: {
       backgroundImage:{
         'hero-img':"url('./src/assets/heroimg.jpg')",
+        'netflix':"url(./src/assets/Netflix_Logo.png)"
       }
     },
   },

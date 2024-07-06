@@ -1,19 +1,10 @@
-import {Link} from 'react-router-dom';
 import React from 'react'
-import { ImAngry2 } from "react-icons/im";
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-
-
-const PageNavbar = () => {
+import {Link} from 'react-router-dom';
+const LandingPageNav = () => {
   return (
-    <>
-     
-      <div className='bg-slate-300  w-full box-border'>
+    <div className='w-full box-border'>
         <ul className="flex flex-wrap justify-between px-4">
-          <li className='p-3'> <Link to="/" className="no-underline text-slate-600">Home Template</Link></li>
+          <li className='p-3'> <Link to="/" className="no-underline text-red-600">Home Template</Link></li>
             <div>
               <select className='bg-gray'>
                   <option value="English">English</option>
@@ -26,10 +17,7 @@ const PageNavbar = () => {
           
         </ul>
       </div>
-
-     
-    </>
   )
 }
 
-export default PageNavbar
+export default LandingPageNav

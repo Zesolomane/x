@@ -1,19 +1,21 @@
 import React from 'react'
 import { BiAdjust } from "react-icons/bi";
 
-const NewsUpdates = () => {
+const NewsUpdates = ({bg}) => {
   return (
     <>
-        <div className="bg-gray border-solid border-b-2 border-gray-500">
-            <div className="w-11/12 mx-auto box-border p-1">
+        <div className="bg-black text-xl font-bold w-full p-1 mx-auto text-white mx-auto">
+           
                 <p>News and Updates</p>
-                <div className="flex flex-row box-border">
+                <div className="flex box-border">
                     <h1 className="size">Follow what's brand <br/>
                         new in digital design.</h1> 
                 </div>
-                <div className="flex flex-row box-border ">
-                    <div className="w-3/4 mx-auto my-0 p-10">
-                        <div className="border-box p-20 border-solid border-b-2 border-gray-500 max-h-5">
+                
+                <div className="flex flex-wrap box-border mx-auto px-4">
+
+                    <div className="mx-auto p-10 flex-1">
+                        <div className="border-box p-20 border-solid border-b-2 border-gray-500 max-h-5 ">
                             <p>w.news1 </p>
                         </div>
                         <div className="border-box p-20 border-solid border-b-2 border-gray-500 max-h-5 ">
@@ -28,7 +30,7 @@ const NewsUpdates = () => {
                       
                         
                     </div>
-                    <div className="w-3/4 mx-auto my-0 p-10">
+                    <div className=" mx-auto my-0 p-10 flex-1">
                         <div className="border-box p-20 border-solid border-b-2 border-gray-500 max-h-7">
                             <p>w.news2</p>
                         </div>
@@ -43,7 +45,7 @@ const NewsUpdates = () => {
                         </div>
 
                     </div>
-                    <div className="w-3/4 mx-auto my-0 p-10">
+                    <div className="mx-auto my-0 p-10 flex-1">
                         <div className="border-box p-20 border-solid border-b-2 border-gray-500 max-h-7">
                             <p>w.news3</p>
                         </div>
@@ -56,10 +58,8 @@ const NewsUpdates = () => {
                         </div>
                         
                     </div>
-                
-        
                 </div>
-            </div>
+            
         </div>
     </>
   )

@@ -11,7 +11,8 @@ import Edit, {postLoader}from './pages/Edit';
 import AddPost from './pages/AddPost';
 import NotExist from './pages/NotExist';
 import Post from './pages/Post';
-
+import Login from './pages/Login';
+import Signup from './pages/SignUp';
 function App() {
   
   const router = createBrowserRouter(
@@ -23,6 +24,9 @@ function App() {
         <Route path="/addPost" element={<AddPost/>}/>
         <Route path="/editPage/:id" element={<Edit/>} loader={postLoader}/>
         <Route path="/post/:id" element={<Post/>}/>
+        
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/signup" element={<Signup/>}/>
         <Route path="/404" element={<NotExist/>}/>
       </Route>
     )
